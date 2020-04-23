@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.QuizGeography">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Learn_Tur_Zim"></activity>
+        <activity android:name=".Learn_Slo_Tun" />
+        <activity android:name=".Learn_Pol_Sir" />
+        <activity android:name=".Learn_Mog_Per" />
+        <activity android:name=".Learn_Kos_Misir" />
+        <activity android:name=".Learn_Iran_Kol" />
+        <activity android:name=".Learn_Fra_Ing" />
+        <activity android:name=".Learn_Dan_Fin" />
+        <activity android:name=".Learn_Alphabet" >
+
+
+        </activity>
+
+
+
+        <activity android:name=".Learn_Abd_Cin">
+        </activity>
+
+        <activity android:name=".FirstActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".HighScore" />
+        <activity android:name=".CapitalActivity" />
+        <activity android:name=".FlagActivity" />
+        <activity android:name=".CountryActivity" />
+        <activity android:name=".Anasayfa" />
+        <activity android:name=".LearnCountry" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
